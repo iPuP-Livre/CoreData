@@ -15,6 +15,11 @@
 		E05587EB1529EA3F009CA659 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E05587EA1529EA3F009CA659 /* main.m */; };
 		E05587EF1529EA3F009CA659 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E05587EE1529EA3F009CA659 /* AppDelegate.m */; };
 		E05587F21529EA3F009CA659 /* CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E05587F01529EA3F009CA659 /* CoreData.xcdatamodeld */; };
+		E05587FA1529EF26009CA659 /* Entreprise.m in Sources */ = {isa = PBXBuildFile; fileRef = E05587F91529EF26009CA659 /* Entreprise.m */; };
+		E05587FD1529EF27009CA659 /* Employe.m in Sources */ = {isa = PBXBuildFile; fileRef = E05587FC1529EF27009CA659 /* Employe.m */; };
+		E05588001529F051009CA659 /* EntreprisesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E05587FF1529F051009CA659 /* EntreprisesTableViewController.m */; };
+		E0B502E8152A4C790050A8DF /* CreateEmployeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0B502E7152A4C790050A8DF /* CreateEmployeTableViewController.m */; };
+		E0C57859152A3CA30084AE6E /* EmployesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0C57858152A3CA30084AE6E /* EmployesTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,13 +28,23 @@
 		E05587DE1529EA3F009CA659 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E05587E01529EA3F009CA659 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		E05587E21529EA3F009CA659 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		E05587E61529EA3F009CA659 /* CoreData-Info.plist */ = {isa = PBXFileReference; path = "CoreData-Info.plist"; sourceTree = "<group>"; };
+		E05587E61529EA3F009CA659 /* CoreData-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoreData-Info.plist"; sourceTree = "<group>"; };
 		E05587E81529EA3F009CA659 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E05587EA1529EA3F009CA659 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E05587EC1529EA3F009CA659 /* CoreData-Prefix.pch */ = {isa = PBXFileReference; path = "CoreData-Prefix.pch"; sourceTree = "<group>"; };
-		E05587ED1529EA3F009CA659 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		E05587EC1529EA3F009CA659 /* CoreData-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CoreData-Prefix.pch"; sourceTree = "<group>"; };
+		E05587ED1529EA3F009CA659 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E05587EE1529EA3F009CA659 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E05587F11529EA3F009CA659 /* CoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreData.xcdatamodel; sourceTree = "<group>"; };
+		E05587F81529EF26009CA659 /* Entreprise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Entreprise.h; sourceTree = "<group>"; };
+		E05587F91529EF26009CA659 /* Entreprise.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Entreprise.m; sourceTree = "<group>"; };
+		E05587FB1529EF27009CA659 /* Employe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Employe.h; sourceTree = "<group>"; };
+		E05587FC1529EF27009CA659 /* Employe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Employe.m; sourceTree = "<group>"; };
+		E05587FE1529F051009CA659 /* EntreprisesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EntreprisesTableViewController.h; sourceTree = "<group>"; };
+		E05587FF1529F051009CA659 /* EntreprisesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EntreprisesTableViewController.m; sourceTree = "<group>"; };
+		E0B502E6152A4C790050A8DF /* CreateEmployeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateEmployeTableViewController.h; sourceTree = "<group>"; };
+		E0B502E7152A4C790050A8DF /* CreateEmployeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateEmployeTableViewController.m; sourceTree = "<group>"; };
+		E0C57857152A3CA30084AE6E /* EmployesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmployesTableViewController.h; sourceTree = "<group>"; };
+		E0C57858152A3CA30084AE6E /* EmployesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmployesTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +97,16 @@
 				E05587EE1529EA3F009CA659 /* AppDelegate.m */,
 				E05587F01529EA3F009CA659 /* CoreData.xcdatamodeld */,
 				E05587E51529EA3F009CA659 /* Supporting Files */,
+				E05587FB1529EF27009CA659 /* Employe.h */,
+				E05587FC1529EF27009CA659 /* Employe.m */,
+				E05587F81529EF26009CA659 /* Entreprise.h */,
+				E05587F91529EF26009CA659 /* Entreprise.m */,
+				E05587FE1529F051009CA659 /* EntreprisesTableViewController.h */,
+				E05587FF1529F051009CA659 /* EntreprisesTableViewController.m */,
+				E0C57857152A3CA30084AE6E /* EmployesTableViewController.h */,
+				E0C57858152A3CA30084AE6E /* EmployesTableViewController.m */,
+				E0B502E6152A4C790050A8DF /* CreateEmployeTableViewController.h */,
+				E0B502E7152A4C790050A8DF /* CreateEmployeTableViewController.m */,
 			);
 			path = CoreData;
 			sourceTree = "<group>";
@@ -162,6 +187,11 @@
 				E05587EB1529EA3F009CA659 /* main.m in Sources */,
 				E05587EF1529EA3F009CA659 /* AppDelegate.m in Sources */,
 				E05587F21529EA3F009CA659 /* CoreData.xcdatamodeld in Sources */,
+				E05587FA1529EF26009CA659 /* Entreprise.m in Sources */,
+				E05587FD1529EF27009CA659 /* Employe.m in Sources */,
+				E05588001529F051009CA659 /* EntreprisesTableViewController.m in Sources */,
+				E0C57859152A3CA30084AE6E /* EmployesTableViewController.m in Sources */,
+				E0B502E8152A4C790050A8DF /* CreateEmployeTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +295,7 @@
 				E05587F71529EA3F009CA659 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

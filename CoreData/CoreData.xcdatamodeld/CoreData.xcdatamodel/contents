@@ -1,4 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model name="Test1.xcdatamodel" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
-    <elements/>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1171" systemVersion="11D50b" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Employe" representedClassName="Employe" syncable="YES">
+        <attribute name="age" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="nom" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="prenom" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sexe" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="entreprise" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Entreprise" inverseName="employes" inverseEntity="Entreprise" syncable="YES"/>
+    </entity>
+    <entity name="Entreprise" representedClassName="Entreprise" syncable="YES">
+        <attribute name="nom" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="employes" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Employe" inverseName="entreprise" inverseEntity="Employe" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Employe" positionX="349" positionY="258" width="128" height="120"/>
+        <element name="Entreprise" positionX="160" positionY="192" width="128" height="75"/>
+    </elements>
 </model>
